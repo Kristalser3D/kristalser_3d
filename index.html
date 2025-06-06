@@ -1,138 +1,88 @@
 <!DOCTYPE html>
 <html lang="es">
-<head> 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cristales 3D Personalizados</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kristalser 3D</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f9f9f9;
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    header img {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .whatsapp-button {
+      display: inline-block;
+      margin: 30px 0;
+      padding: 15px 25px;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+    }
+    .whatsapp-button:hover {
+      background-color: #1ebe5b;
+    }
+    .socials {
+      margin-top: 40px;
+      font-size: 16px;
       color: #333;
     }
-
-    header {
-      background: linear-gradient(to right, #004e92, #000428);
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-
-    header p {
-      font-size: 1.2em;
-    }
-
-    .hero-image {
-      width: 100%;
-      max-height: 400px;
-      object-fit: cover;
-    }
-
-    .section {
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    .section h2 {
-      color: #004e92;
-    }
-
-    .services {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-      margin-top: 20px;
-    }
-
-    .service-card {
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      padding: 20px;
-      width: 280px;
-    }
-
-    .service-card img {
-      width: 100%;
-      border-radius: 5px;
-    }
-
-    .cta {
-      background-color: #004e92;
-      color: white;
-      padding: 30px 20px;
-    }
-
-    .cta a {
-      background-color: #00b4d8;
-      color: white;
-      padding: 12px 24px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    footer {
-      background-color: #000428;
-      color: #aaa;
-      text-align: center;
-      padding: 20px;
-    }
-
-    @media (max-width: 600px) {
-      .services {
-        flex-direction: column;
-        align-items: center;
-      }
+    .socials p {
+      margin: 5px 0;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Cristales 3D Personalizados</h1>
-    <p>Transformamos tus fotos en obras de arte dentro de cristal</p>
+    <img src="ad9c2e04-f763-45e2-befc-5b672d915389.jpeg" alt="Logo Kristalser 3D" />
+    <h1>Kristalser 3D</h1>
+    <p>Personaliza tus recuerdos en cristal 3D</p>
   </header>
 
-  <img class="hero-image" src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?fit=crop&w=1600&q=80" alt="Cristal 3D personalizado">
-
-  <section class="section">
-    <h2>¿Qué ofrecemos?</h2>
-    <div class="services">
-      <div class="service-card">
-        <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?fit=crop&w=800&q=80" alt="Cristal con foto">
-        <h3>Retratos Personalizados</h3>
-        <p>Convierte tu mejor foto en una figura 3D dentro del cristal.</p>
-      </div>
-      <div class="service-card">
-        <img src="https://images.unsplash.com/photo-1581092795360-f02fbc3fc1f0?fit=crop&w=800&q=80" alt="Cristal regalo">
-        <h3>Regalos Únicos</h3>
-        <p>Ideal para cumpleaños, aniversarios, bodas y eventos especiales.</p>
-      </div>
-      <div class="service-card">
-        <img src="https://images.unsplash.com/photo-1557683304-673a23048d34?fit=crop&w=800&q=80" alt="Técnica láser">
-        <h3>Grabado Láser de Alta Precisión</h3>
-        <p>Usamos tecnología de grabado láser para obtener el mejor detalle.</p>
-      </div>
-    </div>
+  <section class="gallery">
+    <img src="105B72A3-B67C-45F2-92DB-E7F9696B66CD.jpeg" alt="Imagen 1" />
+    <img src="1A019BA9-FA21-4BFD-84DC-3742D75287A5.jpeg" alt="Imagen 2" />
+    <img src="38AF53D1-0736-4DE1-A65D-4ABC3289F30B.jpeg" alt="Imagen 3" />
+    <img src="88750301-5F98-43D3-83E5-147D8004D114.jpeg" alt="Imagen 4" />
+    <img src="9CE7206C-96AB-46DF-87B8-1B3EEF1383F5.jpeg" alt="Imagen 5" />
+    <img src="B1D6E819-CE5F-42C8-93DB-14F9D06BE602.jpeg" alt="Imagen 6" />
+    <img src="C735DA5C-E497-40ED-90B2-090BD06E7465.jpeg" alt="Imagen 7" />
+    <img src="CF9182CC-23CF-4E1A-9310-BB6E9BB8BFF1.jpeg" alt="Imagen 8" />
+    <img src="ED2250E8-E4FF-4A12-B1F8-79FD616D404B.jpeg" alt="Imagen 9" />
   </section>
 
-  <section class="cta">
-    <h2>¿Listo para tu propio cristal 3D?</h2>
-    <p>Contáctanos para cotizar tu diseño personalizado con tu foto favorita.</p>
-    <a href="mailto:contacto@tuscristales3d.com">Contáctanos</a>
-  </section>
+  <a class="whatsapp-button" href="https://wa.me/34613453212" target="_blank">
+    📱 Escríbenos y obtén información sobre tu cristal en 3D / Write us and get info about your 3D crystal
+  </a>
 
-  <footer>
-    © 2025 Cristales 3D Personalizados | Todos los derechos reservados
-  </footer>
+  <div class="socials">
+    <h3>Síguenos / Follow us</h3>
+    <p>📸 Instagram: <strong>@kristalaser_3d</strong></p>
+    <p>🎵 TikTok: <strong>@kristal3d</strong></p>
+    <p>📘 Facebook: <strong>Kristalaser Kristalaser</strong></p>
+  </div>
 
 </body>
 </html>
